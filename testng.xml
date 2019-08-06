@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.TestListener"></listener>	<!-- This is to link listner class with test -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener> <!-- This is to create reportng report -->
+	</listeners>
+
+	<test name="Test-Page Object Model">
+		<classes>
+			<class name="testCases.SurveySetupTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
