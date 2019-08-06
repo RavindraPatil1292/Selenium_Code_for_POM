@@ -25,7 +25,7 @@ import utilities.CaptureScreenshot;
  8. Jenkins
  */
 public class TestBase extends MainPage{
-
+//Testing GIT CI
 	@BeforeSuite
 	public void setUp(){
 		
