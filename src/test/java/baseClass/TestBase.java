@@ -25,7 +25,7 @@ import utilities.CaptureScreenshot;
  8. Jenkins
  */
 public class TestBase extends MainPage{
-//Testing GIT CI with eclipse
+//Testing GIT CI with ecli.
 	@BeforeSuite
 	public void setUp(){
 		
