@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test-Page Object Model(failed)">
+    <classes>
+      <class name="testCases.SurveySetupTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="logout"/>
+          <include name="surveySetupTest" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.SurveySetupTest -->
+    </classes>
+  </test> <!-- Test-Page Object Model(failed) -->
+</suite> <!-- Failed suite [Suite] -->
